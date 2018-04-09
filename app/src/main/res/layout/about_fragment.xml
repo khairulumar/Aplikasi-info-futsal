@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:visibility="visible"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="APLIKASI INFORMASI FUTSAL BERBASIS ANDROID yang kami buat masih dalam pengembangan dan belum sepenuhnya jadi"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_below="@+id/toolbar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/polban"
+            android:layout_below="@+id/textView8"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_below="@+id/imageView4"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dibuat Oleh :"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="3. M. Iqbal Khilmi"
+            android:layout_below="@+id/textView12"
+            android:layout_alignLeft="@+id/textView12"
+            android:layout_alignStart="@+id/textView12" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="30dp"
+            android:text="4. M. Iqbal Royani"
+            android:layout_below="@+id/textView13"
+            android:layout_alignLeft="@+id/textView13"
+            android:layout_alignStart="@+id/textView13" />
+
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="30dp"
+            android:text="- Anom Sejogati, S.Kom"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView16"
+            android:layout_alignLeft="@+id/textView16"
+            android:layout_alignStart="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="5. Novelia Anita Putri"
+            android:layout_alignTop="@+id/textView14"
+            android:layout_alignLeft="@+id/textView14"
+            android:layout_alignStart="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="1. Khaerul Umar"
+            android:layout_below="@+id/textView10"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_alignStart="@+id/textView10" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. M. Saputra Adytama "
+            android:layout_below="@+id/textView11"
+            android:layout_alignLeft="@+id/textView11"
+            android:layout_alignStart="@+id/textView11"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Project Manager :"
+            android:layout_below="@+id/textView14"
+            android:layout_toRightOf="@+id/textView9"
+            android:layout_toEndOf="@+id/textView9"
+            android:layout_marginLeft="27dp"
+            android:layout_marginStart="27dp" />
+
+    </RelativeLayout>
+</ScrollView>
